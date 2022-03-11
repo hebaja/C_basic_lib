@@ -51,3 +51,46 @@ void ft_putnbr(int nb)
 				}			
 }
 
+void ft_print_numbers(void)
+{
+			int	i = 48;
+			while(i < 58)
+			{
+						ft_putchar(i);
+						i++;
+			}
+}
+
+void ft_print_alphabet(void)
+{
+			char c;
+			c = 'a';
+			while(c < 'z')
+			{
+							ft_putchar(c);
+							c++;
+			}
+}
+
+void ft_print_alphabet_reverse(void)
+{
+			char c;
+			c = 'z';
+			while(c >= 'a')
+			{
+					ft_putchar(c);
+					c--;
+			}
+}
+
+void ft_is_negative(int n)
+{
+			if(n >= 0)
+			{
+					ft_putchar('P');
+			}
+			else
+			{
+					ft_putchar('N');
+			}
+}
